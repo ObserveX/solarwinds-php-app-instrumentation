@@ -105,4 +105,4 @@ curl -sSO https://agent-binaries.cloud.solarwinds.com/apm/php/latest/solarwinds-
 ```
 sh solarwinds-apm-php.sh --service-key=YourServiceKey
 ```
-6) Exit and Restart the container.
+6) Exit and Restart the container. Generate traffic to see APM data in SolarWinds.
