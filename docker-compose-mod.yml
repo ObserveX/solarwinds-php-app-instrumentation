@@ -30,7 +30,7 @@ services:
       - WORDPRESS_DB_NAME=wordpress
     command: >
       sh -c 'curl -sSO https://agent-binaries.cloud.solarwinds.com/apm/php/latest/solarwinds-apm-php.sh &&
-             sh solarwinds-apm-php.sh --service-key=<INSERT SERVICE KEY HERE> --collector=apm.collector.cloud.solarwinds.com &&
+             sh solarwinds-apm-php.sh --service-key=INSERT SERVICE KEY HERE --collector=apm.collector.cloud.solarwinds.com &&
              apache2-foreground'
 volumes:
   db_data:
