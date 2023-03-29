@@ -117,3 +117,9 @@ Note: It is not recommended to keep sensitive information such as service keys, 
 To use environment variables, you can either set them in your docker-compose.yml file or pass them when running the docker run command.
 
 ## Real User Monitoring via Manual Injection
+To receive RUM data from your website, add the script immediately before the </body> element on below wordpress web pages.
+```bash
+/var/www/html/wp-content/themes/
+```
+
+Generate load on application and verify RUM data in SolarWinds.
